@@ -9,6 +9,7 @@ disqusShortname = "kevbarroga" # delete this to disable disqus comments
     description = "a site powered by Hugo"
     githubUsername = "kevbarroga"
     codepenUsername = "kevbarroga"
+    copyright = "Powered by [Hugo](https://gohugo.io) with [Minimal](https://github.com/calintat/minimal) theme"
     accent = "#33ba91"
     showBorder = true
     backgroundColor = "white"
