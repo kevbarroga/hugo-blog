@@ -1,3 +1,3 @@
 # hugo-minimal
 
-Personal website created with Hugo Static Site Generator with Minimal theme
+Personal [website](https://www.kevinbarroga.me) created with Hugo Static Site Generator with Minimal theme
