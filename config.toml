@@ -2,7 +2,7 @@ baseURL = "https://kevinbarroga.me/"
 languageCode = "en-us"
 title = "kevinbarroga.me"
 theme = "minimal"
-disqusShortname = "username" # delete this to disable disqus comments
+disqusShortname = "kevbarroga" # delete this to disable disqus comments
 
 [params]
     author = "Kevin Barroga"
