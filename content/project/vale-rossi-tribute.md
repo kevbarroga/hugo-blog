@@ -1,9 +1,9 @@
 ---
-title: "The *Doctor* Tribute"
-description: "freeCodeCamp's Build a Tribute Page project"
+title: "The Doctor Tribute"
+description: "Build a Tribute Page"
 repoHost: "codepen"
 repo: "ZpXEPg"
 tags: ["html", "css", "javascript", "codepen", "freeCodeCamp"]
 weight: 0
-draft: true
+draft: false
 ---

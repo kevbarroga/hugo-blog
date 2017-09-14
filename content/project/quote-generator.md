@@ -1,9 +1,9 @@
 ---
 title: "Quote Generator"
-description: "freeCodeCamp's Build a Random Quote Machine project"
+description: "Build a Random Quote Machine"
 repoHost: "codepen"
 repo: "kkZALN"
 tags: ["html", "css", "javascript", "codepen", "freeCodeCamp"]
 weight: 0
-draft: true
+draft: false
 ---

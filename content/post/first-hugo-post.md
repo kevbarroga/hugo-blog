@@ -2,7 +2,7 @@
 title: "First Hugo Post"
 date: 2017-09-13
 tags: ["go", "golang", "hugo", "development"]
-draft: true
+draft: false
 ---
 
 Finally got around to putting a personal blog site together. Neat thing about it - 

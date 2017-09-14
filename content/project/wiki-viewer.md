@@ -1,9 +1,9 @@
 ---
 title: "Wikipedia Viewer"
-description: "freeCodeCamp's Build a Wikipedia Viewer project"
+description: "Build a Wikipedia Viewer"
 repoHost: "codepen"
 repo: "OREvod"
 tags: ["html", "css", "javascript", "codepen", "freeCodeCamp"]
 weight: 0
-draft: true
+draft: false
 ---
