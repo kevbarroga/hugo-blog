@@ -8,6 +8,7 @@ disqusShortname = "kevbarroga" # delete this to disable disqus comments
     author = "Kevin Barroga"
     description = "a site powered by Hugo"
     githubUsername = "kevbarroga"
+    codepenUsername = "kevbarroga"
     accent = "#33ba91"
     showBorder = true
     backgroundColor = "white"
@@ -38,7 +39,7 @@ disqusShortname = "kevbarroga" # delete this to disable disqus comments
 [[menu.icon]]
     url = "mailto:kevbarroga@gmail.com"
     name = "envelope-o"
-    weight = 5
+    weight = 6
 
 [[menu.icon]]
     url = "https://github.com/kevbarroga/"
@@ -48,14 +49,19 @@ disqusShortname = "kevbarroga" # delete this to disable disqus comments
 [[menu.icon]]
     url = "https://twitter.com/kevbarroga/"
     name = "twitter"
-    weight = 3
+    weight = 4
 
 [[menu.icon]]
     url = "https://www.linkedin.com/in/kbarroga/"
     name = "linkedin"
-    weight = 2
+    weight = 3
 
 [[menu.icon]]
     url = "https://t.me/kevbarroga"
     name = "telegram"
-    weight = 4
+    weight = 5
+
+[[menu.icon]]
+    url = "https://codepen.io/kevbarroga/"
+    name = "codepen"
+    weight = 2
