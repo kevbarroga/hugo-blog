@@ -1,14 +1,14 @@
-baseURL = "http://example.com/"
+baseURL = "https://kevinbarroga.me/"
 languageCode = "en-us"
-title = "Minimal"
+title = "kevinbarroga.me"
 theme = "minimal"
 disqusShortname = "username" # delete this to disable disqus comments
 
 [params]
-    author = "Calin Tataru"
-    description = "Personal blog theme powered by Hugo"
-    githubUsername = "#"
-    accent = "red"
+    author = "Kevin Barroga"
+    description = "a site powered by Hugo"
+    githubUsername = "kevbarroga"
+    accent = "#33ba91"
     showBorder = true
     backgroundColor = "white"
     font = "Raleway" # should match the name on Google Fonts!
@@ -36,26 +36,26 @@ disqusShortname = "username" # delete this to disable disqus comments
 # The list of available icons can be found at http://fontawesome.io/icons/
 
 [[menu.icon]]
-    url = "mailto:me@example.com"
+    url = "mailto:kevbarroga@gmail.com"
     name = "envelope-o"
+    weight = 5
+
+[[menu.icon]]
+    url = "https://github.com/kevbarroga/"
+    name = "github"
     weight = 1
 
 [[menu.icon]]
-    url = "https://github.com/username/"
-    name = "github"
-    weight = 2
-
-[[menu.icon]]
-    url = "https://twitter.com/username/"
+    url = "https://twitter.com/kevbarroga/"
     name = "twitter"
     weight = 3
 
 [[menu.icon]]
-    url = "https://www.linkedin.com/in/username/"
+    url = "https://www.linkedin.com/in/kbarroga/"
     name = "linkedin"
-    weight = 4
+    weight = 2
 
 [[menu.icon]]
-    url = "https://www.stackoverflow.com/username/"
-    name = "stack-overflow"
-    weight = 5
+    url = "https://t.me/kevbarroga"
+    name = "telegram"
+    weight = 4
