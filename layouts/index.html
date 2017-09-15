@@ -2,11 +2,35 @@
 
 <main>
 
-    <div class="intro">
+    <!-- <div class="intro"> -->
+    <div>
 
-        <h2>Welcome to</h2>
+        <!-- <h2>Welcome to</h2> -->
 
-        <h1>{{ .Site.Title }}</h1>
+        <!-- <h1>{{ .Site.Title }}</h1> -->
+
+        <!-- <p>Hello! I'm Kevin Barroga. Welcome to my site.</p> -->
+
+        <!--Sorts pages by the publishdate field in front matter; you could use by date as well; the reverse puts the newest at the front-->
+        {{ $posts := ($.Site.GetPage "section" "post").Pages.ByPublishDate }}
+        <!--Grab the most recent-->
+        {{ range first 1 $posts }}
+            <!-- <p>Most recent: {{.Title}} {{.Date}}</p> -->
+            {{ partial "list-item" . }}
+            <br> <div class="text-justify">{{ .Content }}</div>
+        {{ end }}
+
+        <h4 class="page-header">Recent</h4>
+
+        <!--Grab the oldest-->
+        {{ range after 1 (first 3 $posts) }}
+            <!-- <p>Oldest: {{.Title}} {{.Date}}</p> -->
+            <div class="item">
+                <h4><a href="{{ .Scratch.Get "link" }}">{{ .Title }}</a></h4>
+                <h5>{{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006") }}</h5>
+                {{ range .Params.tags }} <kbd class="item-tag">{{ . }}</kbd> {{ end }}
+            </div>
+        {{ end }}
 
     </div>
 
