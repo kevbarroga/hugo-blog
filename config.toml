@@ -24,7 +24,7 @@ disqusShortname = "kevbarroga" # delete this to disable disqus comments
     weight = 1
 
 [[menu.main]]
-    url = "about"
+    url = "/about/"
     name = "About"
     weight = 2
 
