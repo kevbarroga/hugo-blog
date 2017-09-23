@@ -9,3 +9,5 @@ I also enjoy [juggling Kettlebells](https://youtu.be/OydQfyc1Xnw).
 
 Currently, I am learning [Django](https://www.djangoproject.com/) web development and I am training for my first marathon.
 
+
+You can view my running and workout log [here](../tl/).
