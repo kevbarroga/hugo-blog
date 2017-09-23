@@ -23,7 +23,7 @@
         <h4 class="page-header">Recent</h4>
 
         <!--Grab the oldest-->
-        {{ range after 1 (first 3 $posts) }}
+        {{ range after 1 (first 4 $posts) }}
             <!-- <p>Oldest: {{.Title}} {{.Date}}</p> -->
             <div class="item">
                 <h4><a href="{{ .Scratch.Get "link" }}">{{ .Title }}</a></h4>
