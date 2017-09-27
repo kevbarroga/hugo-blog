@@ -10,4 +10,4 @@ Maybe in 20 years I will look back at this and see moments I've slacked off from
 
 I plan to add gpx routes for my runs in the future.
 
-You can view the logs [here](../tl/).
+You can view the logs [here](https://www.kevinbarroga.me/tl/).
