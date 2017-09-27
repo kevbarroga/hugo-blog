@@ -15,11 +15,11 @@ In your terminal change to *root* user:
 
 To turn off the red led:
 
-`echo > /sys/class/leds/led0/brightness`
+`echo 0 > /sys/class/leds/led0/brightness`
 
 To turn off the green led:
 
-`echo > /sys/class/leds/led1/brightness`
+`echo 0 > /sys/class/leds/led1/brightness`
 
 ## Step 3. Stealth mode
 
