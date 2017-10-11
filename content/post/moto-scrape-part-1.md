@@ -2,7 +2,7 @@
 title: "Moto Scrape - Part 1"
 date: 2017-10-10
 tags: ["python", "web", "scrape", "development", "motogp"]
-draft: true
+draft: false
 ---
 
 ## Introduction
@@ -26,7 +26,7 @@ Create a target_url variable:
 
 `>>> target_url = "http://www.motogp.com/en/ajax/results/selector/2017"`
 
-We will now try to get data! Let fetch the races scheduled for the 2017 season:
+We will now try to get data! Let's fetch the races scheduled for the 2017 season:
 
 `>>> races = requests.get(target_url)`
 
@@ -88,7 +88,6 @@ We can loop through the dictionary using the `.items()` method to retrieve keys 
 >>> for k, v in data.items():
     print(k, v)
 
-    
 1 {'shortname': 'QAT', 'title': 'Grand Prix of Qatar', 'circuit': 'Losail International Circuit', 'sequence': '1', 'url': '/en/ajax/results/selector/2017/QAT'}
 2 {'shortname': 'ARG', 'title': 'Gran Premio Motul de la República Argentina', 'circuit': 'Termas de Río Hondo', 'sequence': '2', 'url': '/en/ajax/results/selector/2017/ARG'}
 3 {'shortname': 'AME', 'title': 'Red Bull Grand Prix of The Americas', 'circuit': 'Circuit Of The Americas', 'sequence': '3', 'url': '/en/ajax/results/selector/2017/AME'}
@@ -109,14 +108,13 @@ We can loop through the dictionary using the `.items()` method to retrieve keys 
 18 {'shortname': 'VAL', 'title': 'Gran Premio Motul de la Comunitat Valenciana', 'circuit': 'Circuit Ricardo Tormo', 'sequence': '18', 'url': '/en/ajax/results/selector/2017/VAL'}
 ```
 
-You may notice that the values returned are structured in yet dictionary.
+You may notice that the values returned are structured in yet another dictionary.
 Accesing the values can be done by using square bracket notation like we've done previously.
 
 ```
 >>> for k, v in data.items():
 	print(k, v['shortname'], v['title']+' at '+v['circuit'])
 
-	
 1 QAT Grand Prix of Qatar at Losail International Circuit
 2 ARG Gran Premio Motul de la República Argentina at Termas de Río Hondo
 3 AME Red Bull Grand Prix of The Americas at Circuit Of The Americas
