@@ -64,11 +64,16 @@ disqusShortname = "kevbarroga" # delete this to disable disqus comments
     weight = 4
 
 [[menu.icon]]
+    url = "https://www.instagram.com/kevbarroga/"
+    name = "instagram"
+    weight = 5
+
+[[menu.icon]]
     url = "https://twitter.com/kevbarroga/"
     name = "twitter"
-    weight = 5
+    weight = 6
 
 [[menu.icon]]
     url = "mailto:kevbarroga@gmail.com"
     name = "envelope-o"
-    weight = 6
+    weight = 7
