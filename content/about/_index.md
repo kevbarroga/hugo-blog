@@ -11,4 +11,4 @@ Currently, I am learning [Django](https://www.djangoproject.com/) web developmen
 and I am training for my ~~first~~ second marathon.
 
 
-You can view my running and workout log [here](../tl/).
+You can view my running and workout log [here](https://tl.kevinbarroga.me/).
